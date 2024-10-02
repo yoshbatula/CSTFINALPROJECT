@@ -5,6 +5,7 @@ module org.example.cst4finalproject {
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
+    requires java.desktop;
 
     opens org.example.cst4finalproject to javafx.fxml;
     exports org.example.cst4finalproject;

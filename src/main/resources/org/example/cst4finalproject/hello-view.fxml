@@ -7,53 +7,68 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.cst4finalproject.HelloController">
    <children>
-      <AnchorPane layoutX="1.0" prefHeight="543.0" prefWidth="730.0">
+      <AnchorPane layoutX="-3.0" layoutY="-35.0" prefHeight="501.0" prefWidth="723.0">
          <children>
-            <ImageView fitHeight="308.0" fitWidth="729.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="312.0" fitWidth="721.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images/bg%202.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="308.0" fitWidth="817.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="316.0" fitWidth="711.0" layoutX="12.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images/bg%202.png" />
                </image>
             </ImageView>
-            <Text fill="#616161" layoutX="248.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To">
+            <Text fill="#616161" layoutX="222.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To">
                <font>
-                  <Font name="Code-Bold" size="38.0" />
+                  <Font name="Code-Bold" size="43.0" />
                </font>
             </Text>
-            <Text fill="#616161" layoutX="137.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CST4 FINAL PROJECT">
+            <Text fill="#616161" layoutX="32.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CST4 FINAL PROJECT" wrappingWidth="673.4530029296875">
                <font>
-                  <Font name="Code-Bold" size="50.0" />
+                  <Font name="Code-Bold" size="69.0" />
                </font>
             </Text>
-            <Button layoutX="305.0" layoutY="319.0" mnemonicParsing="false" style="-fx-background-color: #616161; -fx-text-fill: white; -fx-background-radius: 20px;" text="CLICK TO START">
+            <Button fx:id="startBTN" layoutX="282.0" layoutY="336.0" mnemonicParsing="false" style="-fx-background-color: #616161; -fx-text-fill: white; -fx-background-radius: 10px;" text="CLICK TO START">
                <font>
-                  <Font size="14.0" />
+                  <Font name="Code-Bold" size="17.0" />
                </font>
             </Button>
-            <Text fill="#616161" layoutX="149.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batula, Yosh">
+            <Text fill="#616161" layoutX="86.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batula, Yosh">
                <font>
                   <Font name="Code-Bold" size="14.0" />
                </font>
             </Text>
-            <Text fill="#616161" layoutX="246.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
+            <Text fill="#616161" layoutX="186.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
-            <Text fill="#616161" layoutX="259.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cenita, mheil andrei">
+            <Text fill="#616161" layoutX="202.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cenita, mheil andrei">
                <font>
                   <Font name="Code-Bold" size="14.0" />
                </font>
             </Text>
-            <Text fill="#616161" layoutX="407.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
+            <Text fill="#616161" layoutX="354.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
                <font>
                   <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="369.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dumalogdog, Annika">
+               <font>
+                  <Font name="Code-Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="524.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="537.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEVELLINO, KENT">
+               <font>
+                  <Font name="Code-Bold" size="14.0" />
                </font>
             </Text>
          </children>
