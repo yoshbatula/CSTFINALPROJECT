@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="456.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.cst4finalproject.maincont">
+   <children>
+      <AnchorPane prefHeight="456.0" prefWidth="720.0">
+         <children>
+            <ImageView fitHeight="456.0" fitWidth="720.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bg%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="305.0" fitWidth="750.0" layoutX="-1.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bg%202.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
