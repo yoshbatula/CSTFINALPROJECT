@@ -1,16 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.cst4finalproject.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="543.0" prefWidth="730.0">
+         <children>
+            <ImageView fitHeight="308.0" fitWidth="729.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bg%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="308.0" fitWidth="817.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bg%202.png" />
+               </image>
+            </ImageView>
+            <Text fill="#616161" layoutX="248.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To">
+               <font>
+                  <Font name="Code-Bold" size="38.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="137.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CST4 FINAL PROJECT">
+               <font>
+                  <Font name="Code-Bold" size="50.0" />
+               </font>
+            </Text>
+            <Button layoutX="305.0" layoutY="319.0" mnemonicParsing="false" style="-fx-background-color: #616161; -fx-text-fill: white; -fx-background-radius: 20px;" text="CLICK TO START">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Text fill="#616161" layoutX="149.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batula, Yosh">
+               <font>
+                  <Font name="Code-Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="246.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="259.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cenita, mheil andrei">
+               <font>
+                  <Font name="Code-Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="407.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
